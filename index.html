@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's for dinner?</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
+        <section class="text-center">
+            <h1>What's for dinner?</h1>
+            <h2>Choose one</h2>
+
+            <div class="choices">
+                <div class="diet-preference">
+                    <button id="carnivore" class="choice-one btn custom-btn">Carnivore</button>
+                    <button id="vegetarian" class="choice-one btn custom-btn">Vegetarian</button>
+                    <button id="vegan" class="choice-one btn custom-btn">Vegan</button>
+                </div>
+
+                <div class="options-carnivore d-none">
+                    <button id="chicken" class="choice-two-carnivore btn custom-btn">Chicken</button>
+                    <button id="beef" class="choice-two-carnivore btn custom-btn">Beef</button>
+                    <button id="lamb" class="choice-two-carnivore btn custom-btn">Lamb</button>
+                </div>
+
+                <div class="options-vegetarian d-none">
+                    <button id="tofu" class="choice-two-vegetarian btn custom-btn">Tofu</button>
+                    <button id="chickpeas"class="choice-two-vegetarian btn custom-btn">Chickpeas</button>
+                    <button id="lentils" class="choice-two-vegetarian btn custom-btn">Lentils</button>
+                </div>
+
+                <div class="options-vegan d-none">
+                    <button id="tofu-vegan" class="vegan-choice-two btn custom-btn">Tofu</button>
+                    <button id="chickpeas-vegan"class="vegan-choice-two btn custom-btn">Chickpeas</button>
+                    <button id="lentils-vegan" class="vegan-choice-two btn custom-btn">Lentils</button>
+                </div>
+
+                <div class="options-side d-none">
+                    <button id="potatoes" class="choice-three btn custom-btn">Potatoes</button>
+                    <button id="rice" class="choice-three btn custom-btn">Rice</button>
+                    <button id="pasta" class="choice-three btn custom-btn">Pasta</button>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

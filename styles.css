@@ -1,0 +1,46 @@
+div.d-flex {
+    background-color: #f5f5dc;
+}
+
+h1 {
+    color: #6d5846;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #806853;
+    font-family: 'Crimson Text', serif;
+}
+
+button.custom-btn {
+    background-color: rgb(160, 172, 58);
+    margin-top: 3%;
+}
+
+button.custom-btn:hover {
+    background-color: rgb(203, 212, 114);
+}
+
+button.custom-btn:focus {
+    outline: none; 
+    box-shadow: 1px 2px 3px rgb(129, 138, 46); 
+    transform: translateY(2px); 
+}
+
+.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+  
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
