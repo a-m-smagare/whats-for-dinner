@@ -4,12 +4,23 @@ div.d-flex {
 
 h1 {
     color: #6d5846;
-    font-family: 'Lato', sans-serif;
+    font-family: "Galindo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2 {
     color: #806853;
-    font-family: 'Crimson Text', serif;
+    font-family: "Metal", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 button.custom-btn {
@@ -39,6 +50,7 @@ button.custom-btn:focus {
         opacity: 0;
     }
 }
+
 
 
 
