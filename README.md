@@ -33,5 +33,5 @@ To run the project locally, follow these steps:
 3. Open index.html in browser to view the website locally.
 
 ## Demo
-You can view the live demo here:
+You can view the live demo here: https://a-m-smagare.github.io/whats-for-dinner/
    
