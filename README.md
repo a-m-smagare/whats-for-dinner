@@ -28,7 +28,7 @@ Once the user selects their preferences, the application redirects them to a rec
 To run the project locally, follow these steps:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/whats-for-dinner.git
+   git clone https://github.com/a-m-smagare/whats-for-dinner.git
 2. Navigate to project folder: cd Whats-for-Dinner
 3. Open index.html in browser to view the website locally.
 
