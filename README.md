@@ -12,7 +12,7 @@ Once the user selects their preferences, the application redirects them to a rec
 - **HTML5** for structure
 - **CSS3** for styling
 - **JavaScript** for dynamic interactivity
-- **Bootstrap** for responsive desig
+- **Bootstrap** for responsive design
 
 ## How to Use
 1. Open the app in a web browser.
